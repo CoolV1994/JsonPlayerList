@@ -1,0 +1,15 @@
+# JsonPLayerList Configuration
+#
+# URL to post vote data to
+# $_POST['online'] | $_POST['data']
+url: http://localhost/update_playerlist.php
+#
+# Browser agent to use when posting votes
+# $_SERVER['HTTP_USER_AGENT']
+agent: JsonPlayerList
+#
+# Time to wait after starting the server to post (seconds)
+wait: 10
+#
+# Interval for posting player lists (seconds)
+time: 120

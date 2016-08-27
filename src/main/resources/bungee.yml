@@ -1,0 +1,5 @@
+name: ${name}
+main: ${groupId}.${artifactId}.bungee.JPLPlugin
+version: ${version}
+description: ${description}
+author: CoolV1994
